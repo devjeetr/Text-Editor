@@ -1,0 +1,32 @@
+﻿Build started 11/27/2011 2:07:45 AM.
+     1>Project "C:\Users\Devjeet\Documents\Visual Studio 2010\Projects\Text Editor\Text Editor\Text Editor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Text Editor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Ot /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CustomEditControl.cpp FileWrapper.cpp Main.cpp
+         CustomEditControl.cpp
+     1>CustomEditControl.cpp(383): warning C4018: '>' : signed/unsigned mismatch
+         FileWrapper.cpp
+         Main.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Devjeet\Documents\Visual Studio 2010\Projects\Text Editor\Release\Text Editor.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Text Editor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Devjeet\Documents\Visual Studio 2010\Projects\Text Editor\Release\Text Editor.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Devjeet\Documents\Visual Studio 2010\Projects\Text Editor\Release\Text Editor.lib" /MACHINE:X86 /PROFILE "Release\Text Editor.res"
+         Release\CustomEditControl.obj
+         Release\FileWrapper.obj
+         Release\LinkedList.obj
+         Release\Main.obj
+         Release\Node.obj
+         Generating code
+         Finished generating code
+         Text Editor.vcxproj -> C:\Users\Devjeet\Documents\Visual Studio 2010\Projects\Text Editor\Release\Text Editor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Devjeet\Documents\Visual Studio 2010\Projects\Text Editor\Release\Text Editor.exe;#1" /manifest "Release\Text Editor.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Text Editor.unsuccessfulbuild".
+         Touching "Release\Text Editor.lastbuildstate".
+     1>Done Building Project "C:\Users\Devjeet\Documents\Visual Studio 2010\Projects\Text Editor\Text Editor\Text Editor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.64
